@@ -6,8 +6,8 @@ public class SavingAccount {
 
 	public SavingAccount() {
 		//balance=1000
-		System.out.println("This is SavingAccount()");
-		balance=1000;
+		System.out.println("This is SavingAccount() ");
+		balance=10;
 		//this.balance = balance;
 	}
 	public SavingAccount(int balance) {
