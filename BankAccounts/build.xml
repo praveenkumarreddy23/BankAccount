@@ -34,12 +34,12 @@
 			</junit>
 		</target>
 		<target name="report" depends="RunTest">
-			<mkdir dir="TestReports1"/>
-		<junitreport todir="TestReports1">
+			<mkdir dir="TestReports"/>
+		<junitreport todir="TestReports">
 			<fileset dir="TestReports">
 				<include name="*.xml"/>
 			</fileset>
-			<report format="frames" todir="TestReports1"/>
+			<report format="frames" todir="TestReports"/>
 			</junitreport>
 		</target>
 	
