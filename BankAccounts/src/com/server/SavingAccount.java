@@ -3,6 +3,7 @@ package com.server;
 public class SavingAccount {
 	
 	private int balance;
+	private int acctNo;
 
 	public SavingAccount() {
 		//balance=1000
